@@ -35,7 +35,6 @@ h2
     background-color: rgb(244, 255, 243);
 }
 
-
 ul
 {
     list-style-type: none;
@@ -67,21 +66,31 @@ li a.active {
 
 #button
 {
-    width: 300px; 
-    height: 350px;
-    display: inline;
-    margin: 3%;
     text-decoration: none;
 }
+
 button
 {
-    margin-left: 3%;
-    margin-right: 3%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: #f5cb8c;
+    margin: 3%;
     width: 300px; 
     height: 350px;
     border: none;
-    display: block;
     text-decoration: none;
     font-family:'江城圆体';
     font-size: 25px;
+}
+button:hover
+{
+    background-color: #a78656;
+    margin: 3%;
+    width: 300px; 
+    height: 350px;
+    border: none;
+    text-decoration: none;
+    font-family:'江城圆体';
+    font-size: 25px;
+    cursor: pointer;
 }

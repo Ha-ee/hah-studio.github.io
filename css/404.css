@@ -26,8 +26,6 @@ a
 }
 button
 {
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
     background-color: rgb(221, 245, 199);
     font-family:'江城圆体';
     border: 2px solid #e6d923;
