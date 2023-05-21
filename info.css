@@ -1,0 +1,65 @@
+body
+{
+    background-color: rgba(138, 160, 231, 0.89);
+    color: white;
+}
+h1
+{
+    letter-spacing:15px;
+    font-family:'钉钉进步体';
+    font-size: 45px;
+    color: rgb(212, 188, 155);
+    text-align: center;
+}
+
+#title
+{
+    text-indent:5px;
+    letter-spacing:5px;
+    font-family:'钉钉进步体';
+    font-size: 35px;
+    color: rgb(212, 188, 155);
+}
+
+p
+{
+    text-indent:5px;
+    font-family:'江城圆体';
+    font-size: 20px;
+}
+code
+{
+    text-indent:5px;
+    color:rgb(183, 233, 206);
+    font-family: 'Courier New';
+    font-size: 20px;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3588e7;
+}
+li
+{
+    float: left;
+}
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-family:'江城圆体';
+    font-size: 20px;
+}
+li a:hover {
+    background-color: #0165b8;
+}
+li a.active {
+    background-color: #74e4a6;
+}

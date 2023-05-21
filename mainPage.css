@@ -1,0 +1,50 @@
+body
+{
+    background-color: rgba(149, 168, 233, 0.685);
+    color: white;
+}
+h1
+{
+    letter-spacing:15px;
+    font-family:'钉钉进步体';
+    font-size: 50px;
+    color: rgb(209, 139, 48);
+    text-align: center;
+}
+h2
+{
+    letter-spacing:5px;
+    font-family:'钉钉进步体';
+    font-size: 32px;
+    color: rgb(209, 139, 48);
+    text-align: center;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3588e7;
+}
+li
+{
+    float: left;
+}
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-family:'江城圆体';
+    font-size: 20px;
+}
+li a:hover {
+    background-color: #0165b8;
+}
+li a.active {
+    background-color: #74e4a6;
+}
