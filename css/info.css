@@ -1,14 +1,35 @@
 body
 {
-    background-color: rgba(138, 160, 231, 0.89);
-    color: white;
+    background-color: rgb(147, 238, 223);
 }
+
 h1
 {
     letter-spacing:15px;
     font-family:'钉钉进步体';
-    font-size: 45px;
-    color: rgb(212, 188, 155);
+    font-size: 60px;
+    color: rgb(253, 252, 252);
+    text-align: center;
+}
+h2
+{
+    font-family:'江城圆体';
+    font-size: 20px;
+    color: rgba(48, 46, 46, 0.925);
+    text-align: center;
+}
+
+.head
+{
+    height: 350px;
+    background: -webkit-gradient(linear,left top,left bottom,from(#4bf553),to(#cdee7f));
+}
+.body
+{
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 3000px;
+    background-color: rgba(255, 255, 255, 0.644);
     text-align: center;
 }
 
@@ -18,20 +39,21 @@ h1
     letter-spacing:5px;
     font-family:'钉钉进步体';
     font-size: 35px;
-    color: rgb(212, 188, 155);
+    color: rgb(235, 147, 25);
+}
+#warning
+{
+    text-indent:5px;
+    letter-spacing:5px;
+    font-family:'钉钉进步体';
+    font-size: 35px;
+    color: rgb(255, 145, 0);
 }
 
 p
 {
     text-indent:5px;
     font-family:'江城圆体';
-    font-size: 20px;
-}
-code
-{
-    text-indent:5px;
-    color:rgb(183, 233, 206);
-    font-family: 'Courier New';
     font-size: 20px;
 }
 
@@ -62,4 +84,77 @@ li a:hover {
 }
 li a.active {
     background-color: #74e4a6;
+}
+
+#link
+{
+    text-decoration: none;
+}
+
+#github
+{
+    background-color: rgba(255, 255, 255, 0.644);
+    border: 2px solid #360f8f;
+}
+#github:before
+{
+    position: relative;
+    right: 5px;
+    content: url("../images/icons/Github.png");
+}
+#github:hover
+{
+    background-color: #360f8f;
+}
+#github:hover:before
+{
+    position: relative;
+    right: 5px;
+    content: url("../images/icons/Github-hover.png");
+}
+
+#windows
+{
+    background-color: rgba(255, 255, 255, 0.644);
+    border: 2px solid #00cce7;
+}
+#windows:before
+{
+    position: relative;
+    right: 5px;
+    content: url("../images/icons/Windows10.png");
+}
+#windows:hover
+{
+    background: url();
+    background-color: #00cce7;
+}
+#windows:hover:before
+{
+    position: relative;
+    right: 5px;
+    content: url("../images/icons/Windows10-hover.png");
+}
+
+button
+{    
+    font-family:Turpis;    
+    border-radius: 12px;
+    color: black;
+    margin: 0 auto;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 24px;
+}
+button:hover
+{
+    font-family:Turpis;
+    border-radius: 12px;
+    color: white;
+    margin: 0 auto;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 24px;
 }
